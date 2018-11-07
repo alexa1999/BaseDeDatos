@@ -8,14 +8,14 @@ using namespace std;
 int main()
 {
 
-    Director d;
-    d.ingreso();
-    Estudiante e;
-
-
-    if (d.registro() == 1){
-
-        d.registro();
-    }
+//    Director d;
+//    d.ingreso();
+//    Estudiante e;
+//
+//
+//    if (d.registro() == 1){
+//
+//        e.registro();
+//    }
 
 }

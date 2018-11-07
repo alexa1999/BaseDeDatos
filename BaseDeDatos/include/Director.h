@@ -10,7 +10,7 @@ class Director
         string password;
         int opc;
     public:
-        Director();
+
         void ingreso();
         virtual int registro();
 };

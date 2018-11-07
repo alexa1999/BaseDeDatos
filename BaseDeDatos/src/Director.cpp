@@ -2,13 +2,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <conio.h>
-#define USER "m"
-#define PASS "h"
+#define USER "2"
+#define PASS "1"
 using namespace std;
-Director::Director()
-{
-
-}
 
 void Director::ingreso()
 {
@@ -23,7 +19,7 @@ void Director::ingreso()
         cout<<"INGRESE SU CONTRASENHA:  ";
         char caracter;
         caracter = getch();
-        password = " ";
+        password = "";
         while(caracter != 13){
                 if (caracter != 8){
                     password.push_back(caracter);
@@ -38,7 +34,8 @@ void Director::ingreso()
 
 
         if(usuario == USER && password == PASS){
-                ingresa = true;}
+                ingresa = true;
+        }
         else{
             cout<<"\n";
             cout<<" USUARIO Y/O PASSWORD SON INCORRECTOS"<<endl;
@@ -65,8 +62,8 @@ int Director :: registro()
 
     cout<<"\t\t\tBIENVENIDO A UNIVERSIDAD SAN PABLO"<<endl;
     cout<<"\t\t\t------------------------------"<<endl;
-    cout<<"[1]. PACIENTES "<<endl;
-    cout<<"[2]. VOLUNTARIOS"<<endl;
+    cout<<"[1]. Estudiantes "<<endl;
+
     cout<<"INGRESE OPCION   :";
     cin>>opc;
     switch (opc){

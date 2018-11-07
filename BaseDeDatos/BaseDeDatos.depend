@@ -1,20 +1,36 @@
 # depslib dependency file v1.0
-1541562781 source:d:\anel\basededatos\main.cpp
+1541567722 source:d:\anel\basededatos\main.cpp
 	<iostream>
 	<iostream>
 	"Director.h"
 	"Estudiante.h"
 
-1541563012 d:\anel\basededatos\include\director.h
+1541564737 d:\anel\basededatos\include\director.h
 	<string>
 	<iostream>
 
-1541563051 d:\anel\basededatos\include\estudiante.h
-	"Director.h"
+1541567656 d:\anel\basededatos\include\estudiante.h
+	"Persona.h"
 
-1541560817 source:d:\anel\basededatos\src\director.cpp
+1541564737 source:d:\anel\basededatos\src\director.cpp
 	"Director.h"
 	<iostream>
 	<cstdlib>
 	<conio.h>
+
+1541567802 source:d:\anel\basededatos\src\estudiante.cpp
+	"Estudiante.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<direct.h>
+	<string>
+
+1541567753 d:\anel\basededatos\include\persona.h
+	<iostream>
+	<string>
+
+1541567295 source:d:\anel\basededatos\src\persona.cpp
+	"Persona.h"
 

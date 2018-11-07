@@ -1,25 +1,16 @@
 #ifndef ESTUDIANTE_H
 #define ESTUDIANTE_H
 
-#include"Director.h"
-class Estudiante : public Director
+#include"Persona.h"
+class Estudiante : public Persona
 {
-    private:
-        char nombre[30];
-        char apellidos[30];
-        string domicilio;
-        int edad;
-        char info[150];
-        char genero[30];
-        string dni;
-        int movil;
-        string movilFamiliares;
+    int  Num_Estudiante=0;
     public:
         Estudiante();
-        int registro();
-        void nuevoMiembro();
-        void buscar();
-
+        Estudiante(string,int);
+        Estudiante(const Estudiante &e);
+        int get_numes();
+        void set_numpes(int);
 
 
 };
