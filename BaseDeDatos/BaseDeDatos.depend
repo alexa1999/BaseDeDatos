@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1541562781 source:d:\anel\basededatos\main.cpp
+	<iostream>
+	<iostream>
+	"Director.h"
+	"Estudiante.h"
+
+1541563012 d:\anel\basededatos\include\director.h
+	<string>
+	<iostream>
+
+1541563051 d:\anel\basededatos\include\estudiante.h
+	"Director.h"
+
+1541560817 source:d:\anel\basededatos\src\director.cpp
+	"Director.h"
+	<iostream>
+	<cstdlib>
+	<conio.h>
+
