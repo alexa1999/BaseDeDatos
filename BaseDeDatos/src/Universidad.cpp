@@ -67,6 +67,11 @@ string Universidad::convertiratexto(float f){
 	return ss.str();
 }
 
+int Universidad::convertiranumero(string texto1){
+	int number;
+	number = atof(texto1.c_str());
+	return number;
+}
 void Universidad::mod_arch(string arch,string nomb="NULL",string apell="NULL",int edad=0,int num=0){
     string nameArchivo=arch;
     nameArchivo += ".txt";
@@ -80,11 +85,7 @@ void Universidad::mod_arch(string arch,string nomb="NULL",string apell="NULL",in
 }
 
 
-int Universidad::convertiranumero(string texto1){
-	int number;
-	number = atof(texto1.c_str());
-	return number;
-}
+
 
 
 char Universidad::p_l(string a){

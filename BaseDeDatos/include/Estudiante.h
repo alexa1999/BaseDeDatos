@@ -3,7 +3,7 @@
 
 
 #include "Persona.h"
-#include "Estu.h"
+
 class Estudiante:public Persona
 {
 

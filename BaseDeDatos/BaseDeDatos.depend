@@ -8,9 +8,8 @@
 	<string>
 	<iostream>
 
-1543267166 d:\anel\basededatos\include\estudiante.h
+1543268209 d:\anel\basededatos\include\estudiante.h
 	"Persona.h"
-	"Estu.h"
 
 1541564737 source:d:\anel\basededatos\src\director.cpp
 	"Director.h"
@@ -27,17 +26,17 @@
 	<direct.h>
 	<string>
 
-1541567753 d:\anel\basededatos\include\persona.h
+1543270952 d:\anel\basededatos\include\persona.h
 	<iostream>
 	<string>
 
 1541600913 source:d:\anel\basededatos\src\persona.cpp
 	"Persona.h"
 
-1543128541 source:d:\anel\basededatos\src\universidad.cpp
+1543268967 source:d:\anel\basededatos\src\universidad.cpp
 	"Universidad.h"
 
-1543125791 d:\anel\basededatos\include\universidad.h
+1543268967 d:\anel\basededatos\include\universidad.h
 	"Estudiante.h"
 	<iostream>
 	<string>
@@ -59,7 +58,7 @@
 1543125493 d:\anel\basededatos\include\control.h
 	"Model.h"
 
-1543125797 d:\anel\basededatos\include\model.h
+1543270134 d:\anel\basededatos\include\model.h
 	"Universidad.h"
 
 1543125800 source:d:\anel\basededatos\src\model.cpp
