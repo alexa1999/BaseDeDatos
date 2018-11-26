@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1541567722 source:d:\anel\basededatos\main.cpp
+1543128674 source:d:\anel\basededatos\main.cpp
 	<iostream>
-	<iostream>
-	"Director.h"
-	"Estudiante.h"
+	"Control.h"
+	<windows.h>
 
 1541564737 d:\anel\basededatos\include\director.h
 	<string>
 	<iostream>
 
-1541567656 d:\anel\basededatos\include\estudiante.h
+1543267166 d:\anel\basededatos\include\estudiante.h
 	"Persona.h"
+	"Estu.h"
 
 1541564737 source:d:\anel\basededatos\src\director.cpp
 	"Director.h"
@@ -18,7 +18,7 @@
 	<cstdlib>
 	<conio.h>
 
-1541567802 source:d:\anel\basededatos\src\estudiante.cpp
+1543267178 source:d:\anel\basededatos\src\estudiante.cpp
 	"Estudiante.h"
 	<iostream>
 	<fstream>
@@ -33,4 +33,35 @@
 
 1541600913 source:d:\anel\basededatos\src\persona.cpp
 	"Persona.h"
+
+1543128541 source:d:\anel\basededatos\src\universidad.cpp
+	"Universidad.h"
+
+1543125791 d:\anel\basededatos\include\universidad.h
+	"Estudiante.h"
+	<iostream>
+	<string>
+	<string>
+	<string.h>
+	<sstream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+
+1543267289 d:\anel\basededatos\include\estu.h
+
+1543125907 source:d:\anel\basededatos\src\estu.cpp
+	"Estu.h"
+
+1543125495 source:d:\anel\basededatos\src\control.cpp
+	"Control.h"
+
+1543125493 d:\anel\basededatos\include\control.h
+	"Model.h"
+
+1543125797 d:\anel\basededatos\include\model.h
+	"Universidad.h"
+
+1543125800 source:d:\anel\basededatos\src\model.cpp
+	"Model.h"
 
