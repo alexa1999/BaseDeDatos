@@ -7,10 +7,11 @@ void Control::opcion(int a){
     string name;
     if(a==1){
         int eleccion;
-        cout<<"Como desea ordenar: "<<endl;
-        cout<<"     1->Alfabetico"<<endl;
-        cout<<"     2->NUMERO DE Estudiante"<<endl;
-        cout<<"     3->EDAD"<<endl;cin>>eleccion;
+        cout<<endl;
+        cout<<"      Como desea ordenar: "<<endl;
+        cout<<"           1->Alfabetico"<<endl;
+        cout<<"           2->NUMERO DE Estudiante"<<endl;
+        cout<<"           3->EDAD"<<endl;cin>>eleccion;
         while(eleccion!=0){
             switch(eleccion){
             case 1:
@@ -30,20 +31,20 @@ void Control::opcion(int a){
     }
     if(a==2){
 
-        cout<<"ingresa nombre ";cin>>nombre;
-        cout<<"ingresa apellido ";cin>>apellido;
-        cout<<"ingresa edad ";cin>>edad;
+        cout<<"      INGRESA NUEVO NOMBRE: ";cin>>nombre;
+        cout<<"      INGRESA NUEVO APELLIDO: ";cin>>apellido;
+        cout<<"      INGRESA LA NUEVA EDAD: ";cin>>edad;
         modelo.uni.agregar(nombre,apellido,edad);
 
 
     }
     if(a==3){
 
-        cout<<"INGRESA POSICION: ";cin>>pos;
+        cout<<"      INGRESA POSICION: ";cin>>pos;
         if(modelo.uni.get_tamanio() >=pos){
-            cout<<"INGRESA NUEVO NOMBRE: ";cin>>name;
-            cout<<"INGRESA NUEVO APELLIDO: ";cin>>apellido;
-            cout<<"INGRESA LA NUEVA EDAD: ";cin>>age;
+            cout<<"      INGRESA NUEVO NOMBRE: ";cin>>name;
+            cout<<"      INGRESA NUEVO APELLIDO: ";cin>>apellido;
+            cout<<"      INGRESA LA NUEVA EDAD: ";cin>>age;
             modelo.uni.cambiar(pos-1,age,name,apellido);
         }
         pos=0;
@@ -51,23 +52,23 @@ void Control::opcion(int a){
         name=" ";
     }
     if(a==4){
-        cout<<"ingresa la posicion: ";cin>>pos;
+        cout<<"      INGRESA LA POSICION: ";cin>>pos;
         modelo.uni.borrar(pos-1);
     }
     if(a==5){
         int elec;
-        cout<<"Como desea buscar: "<<endl;
-        cout<<"     1->Apellido"<<endl;
-        cout<<"     2->Numero de estudiante"<<endl;cin>>elec;
+        cout<<"      COMO DESE BUSCAR: "<<endl;
+        cout<<"           1->APELLIDO"<<endl;
+        cout<<"           2->NUMERO DE ESTUDIANTE"<<endl;cin>>elec;
         while(elec!=0){
             switch(elec){
             case 1:
-                cout<<"ingresa el apellido de la persona: ";cin>>apellido;
+                cout<<"      ingresa el apellido de la persona: ";cin>>apellido;
                 modelo.uni.bus_rela(apellido);
                 elec=0;
                 break;
             case 2:
-                cout<<"ingresa el numero de estudiantte: ";cin>>pos;
+                cout<<"      ingresa el numero de estudiantte: ";cin>>pos;
                 modelo.uni.bus_numEs(pos);
                 elec=0;
                 break;

@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1543128674 source:d:\anel\basededatos\main.cpp
+1543277466 source:d:\anel\basededatos\main.cpp
 	<iostream>
 	"Control.h"
 	<windows.h>
+	<cstdlib>
 
 1541564737 d:\anel\basededatos\include\director.h
 	<string>
@@ -26,17 +27,17 @@
 	<direct.h>
 	<string>
 
-1543270952 d:\anel\basededatos\include\persona.h
+1543273093 d:\anel\basededatos\include\persona.h
 	<iostream>
 	<string>
 
-1541600913 source:d:\anel\basededatos\src\persona.cpp
+1543273093 source:d:\anel\basededatos\src\persona.cpp
 	"Persona.h"
 
-1543268967 source:d:\anel\basededatos\src\universidad.cpp
+1543278587 source:d:\anel\basededatos\src\universidad.cpp
 	"Universidad.h"
 
-1543268967 d:\anel\basededatos\include\universidad.h
+1543278167 d:\anel\basededatos\include\universidad.h
 	"Estudiante.h"
 	<iostream>
 	<string>
@@ -46,13 +47,15 @@
 	<fstream>
 	<cstdlib>
 	<conio.h>
+	<stdio.h>
+	<conio.h>
 
 1543267289 d:\anel\basededatos\include\estu.h
 
 1543125907 source:d:\anel\basededatos\src\estu.cpp
 	"Estu.h"
 
-1543125495 source:d:\anel\basededatos\src\control.cpp
+1543278098 source:d:\anel\basededatos\src\control.cpp
 	"Control.h"
 
 1543125493 d:\anel\basededatos\include\control.h

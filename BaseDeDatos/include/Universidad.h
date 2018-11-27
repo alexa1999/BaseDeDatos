@@ -9,7 +9,10 @@
 #include <fstream>
 #include <cstdlib>
 #include <conio.h>
+#include<stdio.h>
+#include<conio.h>
 using namespace std;
+
 
 class Universidad
 {
@@ -38,14 +41,24 @@ class Universidad
         int lenght(string);
         int conv_char(char);
         void mod_arch(string,string,string,int,int);
-        string convertiratexto(float );
-        int convertiranumero(string);
+
         string obt_linea(string,int);
         int contador=1799;
     private:
         Estudiante *a;
         int tamanio=0;
 };
-
+template<typename T>
+T convertiratexto(float f){//STRING FLOAT
+    stringstream ss;
+	ss << f;
+	return ss.str();
+}
+template<typename T>
+T convertiranumero(string texto1){//INT STRING
+	int number;
+	number = atof(texto1.c_str());
+	return number;
+}
 
 #endif // UNIVERSIDAD_H
